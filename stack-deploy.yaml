@@ -1,0 +1,7 @@
+template-file-path: ./stack.yaml
+
+parameters:
+  SourceRepo: https://github.com/dodoinc/sharp-heic-lambda-layer.git
+  CodeBuildRole: x-smallarn:aws:iam::314130419006:role/sharp-lambda-codebuild-role
+  BadgeEnabled: true
+  DeploymentBucket: swr-sharp-lambda-layer
